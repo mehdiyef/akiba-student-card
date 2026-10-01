@@ -1,0 +1,15 @@
+
+name = input("enter your name: ")
+id = input("enter your ID: ")
+department = input("enter your department: ")
+year = int(input("enter your current year: "))
+university = input("enter your university: ")
+phone_no = int(input("enter your phone number: "))
+
+print("\n=============== your id card ===============\n")
+print(f"Name: {name}")
+print(f"ID: {id}")
+print(f"Department: {department}")
+print(f"Year: {year}")
+print(f"University: {university}")
+print(f"Phone number: {phone_no}")
